@@ -37,38 +37,39 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
     AddButton(Tab1o, {
      Name = "Phantasm",
     Callback = function()
-	  
   loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"))()
-      end
-     })
-  
+  end
+  })
   AddButton(Tab1o, {
      Name = "LunarHub",
     Callback = function()
 	  
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kkkyokie/Lunarhub/main/lunar.lua"))() 
-	  end
-     })
-	  
+  end
+  })
 	  AddButton(Tab1o, {
      Name = "DoviHub key:qb7HLcqv2o5rdNzpeFbY",
     Callback = function()
 	  
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/needanewphone32-eng/tsbfiles/refs/heads/main/Main1.lua"))()
-	  end
-     })
-     
+  end
+  })
 	  AddButton(Tab1o, {
      Name = "Auto block",
     
-	  local Settings = {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/dinhthanhtuankiet1762009-sudo/Js/refs/heads/main/93f2600e64c1a112.lua"))()  
-	  end
-     })
-	  
+  end
+  }) 
+     AddButton(Tab1o, {
+     Name = "Side dash",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/23bcf4264b586dc93b16a9b054eddae259938b7421ac5096353079b2e9d74e24.lua"))()
+  end
+  })
 	  AddButton(Tab2o, {
      Name = "INSTANT TWISTED",
     Callback = function()
+    local parts = {
     "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xldHVh",
     "bmtpZXQwOTgxMjM0NS1jbXlrL1Rlc3RraWJhL3JlZnMvaGVhZHMv",
     "bWFpbi9lZGZhMzg1ZWY1YzQ3ZDNhLmx1YQ=="
@@ -94,40 +95,28 @@ local function d(data)
     end))
 end
 loadstring(game:HttpGet(d(encoded)))()
-	  end
-     })
-     
-	  AddButton(Tab2o, {
+  end
+  })
+  	  AddButton(Tab2o, {
      Name = "Supa v2",
     Callback = function()
-	  
-	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/2753546c83053761e44664d36ffe5035d6e20fc8aee1d19f0eb7b933974ae537.lua"))() 
-	 end
-     })
-	 
+	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/2753546c83053761e44664d36ffe5035d6e20fc8aee1d19f0eb7b933974ae537.lua"))()
+  end
+  })
 	  AddButton(Tab2o, {
      Name = "Supa v3(Key)",
     Callback = function()
-	  
-	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/ea0b7cbd8c395e01ec38271794b2559808d26501bd6e6e30c48660759a7db7b3.lua"))()   
-	   end
-     })
-        
-	  AddButton(Tab2o, {
-     Name = "Side dash",
-    Callback = function()
-      
-	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/23bcf4264b586dc93b16a9b054eddae259938b7421ac5096353079b2e9d74e24.lua"))()
-	  end
-     })
-     
+	  local Settings = {
+	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hostedea0b7cbd8c395e01ec38271794b2559808d26501bd6e6e30c48660759a7db7b3.lua"))()
+  end
+  })
 	  AddButton(Tab2o, {
      Name = "Backdash Cancel",
     Callback = function()
 	
 	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/0b57119c46c0267e6791f789ace2ffac7b752a63224d86a0b6f95d68aec099ac.lua"))()
-      end
-     })
+  end
+  })
 AddButton(Tab2o, {
      Name = "MereQ(key)",
     Callback = function()
