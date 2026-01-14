@@ -1,0 +1,126 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Sakura Hub",
+         Animation = "Youtube: Sakura Chan"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=135286045511610",
+       Size = {60, 60},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script Menu"})
+     local Tab2o = MakeTab({Name = "Tech"})
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Phantasm",
+    Callback = function()
+	  local Settings = {
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ATrainz/Phantasm/refs/heads/main/Games/TSB.lua"))()
+  })
+  
+  AddButton(Tab1o, {
+     Name = "LunarHub",
+    Callback = function()
+	  local Settings = {
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kkkyokie/Lunarhub/main/lunar.lua"))()
+	  
+	  AddButton(Tab1o, {
+     Name = "DoviHub key:qb7HLcqv2o5rdNzpeFbY",
+    Callback = function()
+	  local Settings = {
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/needanewphone32-eng/tsbfiles/refs/heads/main/Main1.lua"))()
+	  
+	  AddButton(Tab1o, {
+     Name = "Auto block",
+    Callback = function()
+	  local Settings = {
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/dinhthanhtuankiet1762009-sudo/Js/refs/heads/main/93f2600e64c1a112.lua"))()
+	  
+	  AddButton(Tab2o, {
+     Name = "INSTANT TWISTED",
+    Callback = function()
+	  local Settings = {
+	  local parts = {
+    "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xldHVh",
+    "bmtpZXQwOTgxMjM0NS1jbXlrL1Rlc3RraWJhL3JlZnMvaGVhZHMv",
+    "bWFpbi9lZGZhMzg1ZWY1YzQ3ZDNhLmx1YQ=="
+}
+local encoded = table.concat(parts)
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+local function d(data)
+    data = data:gsub('[^'..b..'=]', '')
+    return (data:gsub('.', function(x)
+        if x=='=' then return '' end
+        local r,f='',(b:find(x)-1)
+        for i=6,1,-1 do
+            r=r..(f%2^i - f%2^(i-1) > 0 and '1' or '0')
+        end
+        return r
+    end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x)
+        if #x~=8 then return '' end
+        local c=0
+        for i=1,8 do
+            c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0)
+        end
+        return string.char(c)
+    end))
+end
+loadstring(game:HttpGet(d(encoded)))()
+	  
+	  AddButton(Tab2o, {
+     Name = "INSTANT TWISTED",
+    Callback = function()
+	  local Settings = {
+	  
+	  AddButton(Tab2o, {
+     Name = "Supa v2",
+    Callback = function()
+	  local Settings = {
+	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/2753546c83053761e44664d36ffe5035d6e20fc8aee1d19f0eb7b933974ae537.lua"))()
+	 
+	  AddButton(Tab2o, {
+     Name = "Supa v3(Key)",
+    Callback = function()
+	  local Settings = {
+	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/ea0b7cbd8c395e01ec38271794b2559808d26501bd6e6e30c48660759a7db7b3.lua"))()
+	   
+	  AddButton(Tab2o, {
+     Name = "Side dash",
+    Callback = function()
+	  local Settings = {
+	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/23bcf4264b586dc93b16a9b054eddae259938b7421ac5096353079b2e9d74e24.lua"))()
+	  
+	  AddButton(Tab2o, {
+     Name = "Backdash Cancel",
+    Callback = function()
+	  local Settings = {
+	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/0b57119c46c0267e6791f789ace2ffac7b752a63224d86a0b6f95d68aec099ac.lua"))()
+
+AddButton(Tab2o, {
+     Name = "MereQ(key)",
+    Callback = function()
+	  local Settings = {
+	  loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/13d3955bf672272305cc6ec9ec42f5773b16541aa76237f626d2263adc64a374.lua"))()
